@@ -1,0 +1,66 @@
+.intro {
+    min-height: 100vh;
+    padding: 32px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("/assets/images/Background_Intro.png") center / cover no-repeat;
+}
+
+
+.info {
+    width: min(1040px, 100%);
+    min-height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.avatar {
+    width: 112px;
+    height: auto;
+    padding-bottom: 56px;
+}
+
+subtitle {
+    display: block;
+    font: var(--subtitle);
+    color: var(--gray-200);
+    .destaque {
+    color: var(--red);
+    }
+}
+
+h1 {
+    display: block;
+    font: var(--h1);
+    color: var(--gray-100);
+}
+
+text-sm {
+    display: block;
+    font: var(--text-sm);
+    color: var(--gray-300);
+}
+
+text-md {
+    display: block;
+    font: var(--text-md);
+    color: var(--gray-200);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background: var(--gray-400);
+}
+
+.projetos {
+    min-height: 100vh;
+    background: url("/assets/images/Background_Contacts.png") center / cover no-repeat;
+}

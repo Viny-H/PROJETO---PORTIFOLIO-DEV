@@ -21,17 +21,33 @@
 --gray-600: #0D0E11;
 
 /*Fonte: Asap*/
---font-family: 'Asap', sans-serif;
---h1: 800 56px/120% var(--font-family); /*Title lg*/
---h2: 800 24px/120% var(--font-family); /*Title md*/
---h3: 800 16px/120% var(--font-family); /*Title sm*/
+--font-family-asap: 'Asap', sans-serif;
+--h1: 800 56px/120% var(--font-family-asap); /*Title lg*/
+--h2: 800 24px/120% var(--font-family-asap); /*Title md*/
+--h3: 800 16px/120% var(--font-family-asap); /*Title sm*/
 
 /*Fonte: Inconsolata*/
---font-family: 'Inconsolata', monospace;
---subtitle: 400 20px/120% var(--font-family); /*Subtitle*/
+--font-family-inconsolata: 'Inconsolata', monospace;
+--subtitle: 400 20px/120% var(--font-family-inconsolata); /*Subtitle*/
 
 /*Fonte: Maven Pro*/
---font-family: 'Maven Pro', sans-serif;
---text-md: 400 16px/140% var(--font-family); /*Text md*/
---text-sm: 400 14px/140% var(--font-family); /*Text sm*/
+--font-family-maven-pro: 'Maven Pro', sans-serif;
+--text-md: 400 16px/140% var(--font-family-maven-pro); /*Text md*/
+--text-sm: 400 14px/140% var(--font-family-maven-pro); /*Text sm*/
+}
+
+.grid {
+display: grid;
+}
+
+.grid-flow-col {
+grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
 }
